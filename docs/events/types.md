@@ -1487,7 +1487,8 @@ $NOTIFY:EMAIL,<to>,\[cc\],\[ccc\],<subject>,<message>,\[attachments\],\[exclude 
    <ATTACHMENTS>
        <ATTACH></ATTACH>
        <ATTACH></ATTACH>\...</ATTACHMENTS>
-   <USERNAME></USERNAME>
+  <EXCLUDEID></EXCLUDEID> 
+  <USERNAME></USERNAME>
    <USERPWD></USERPWD>
 </EVENT>
 ```
@@ -1532,7 +1533,8 @@ $NOTIFY:LOG,<severity>,<eventid>,<message>,\[event source\],\[exclude prefix inf
    <LOGSEV></LOGSEV>
    <LOGID></LOGID>
    <LOGMSG></LOGMSG>
-   <USERNAME></USERNAME>
+   <EXCLUDEID></EXCLUDEID>
+   <USERNAME></USERNAME>
    <USERPWD></USERPWD>
 </EVENT>
 ```
@@ -1567,7 +1569,8 @@ $NOTIFY:NETSEND,<machine>,<message>,\[exclude prefix information from header: Y/
    <ACTION>NETSEND</ACTION>
    <NETMACH></NETMACH>
    <NETMSG></NETMSG>
-   <USERNAME></USERNAME>
+   <EXCLUDEID></EXCLUDEID>
+   <USERNAME></USERNAME>
    <USERPWD></USERPWD>
 </EVENT>
 ```
@@ -1604,7 +1607,8 @@ $NOTIFY:SNMP,<severity>,<eventid>,<message>,\[exclude notification id from heade
    <SNMPTRAP></SNMPTRAP>
    <SNMPID></SNMPID>
    <SNMPMSG></SNMPMSG>
-   <USERNAME></USERNAME>
+   <EXCLUDEID></EXCLUDEID>
+   <USERNAME></USERNAME>
    <USERPWD></USERPWD>
 </EVENT>
 ```
@@ -1643,7 +1647,8 @@ $NOTIFY:SPOAL,<text\>,<severity>,<alarmid>,<alarmqual>,\[exclude notification id
    <SPOSEV></SPOSEV>
    <SPOALARMID></SPOALARMID>
    <SPOALARMQUAL></SPOALARMQUAL>
-   <USERNAME></USERNAME>
+   <EXCLUDEID></EXCLUDEID>
+   <USERNAME></USERNAME>
    <USERPWD></USERPWD>
 </EVENT>
 ```
@@ -1767,7 +1772,8 @@ $NOTIFY:TEXTMSG,<to>,<message>,\[exclude notification id from header: Y/N\]
    <ACTION>TEXTMSG</ACTION>
    <TEXTTO></TEXTTO>
    <TEXTMSG></TEXTMSG>
-   <USERNAME></USERNAME>
+   <EXCLUDEID></EXCLUDEID>
+   <USERNAME></USERNAME>
    <USERPWD></USERPWD>
 </EVENT>
 ```
